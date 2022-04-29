@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+* {
+    font-family: 'Poppins';
+
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+}
+
+#myText {
+    padding: 15px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 3px;
+}
+
+.key {
+    height: 64px;
+    width: 64px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.key:hover {
+    height: 64px;
+    width: 64px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keyb {
+    height: 64px;
+    width: 64px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keyb:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keyc {
+    height: 64px;
+    width: 64px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keyc:hover {
+    height: 64px;
+    width: 64px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keym {
+    height: 64px;
+    width: 64px;
+    background-color: #FFC312;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keym:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #FFC312;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keyd {
+    height: 64px;
+    width: 64px;
+    background-color: #009432;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keyd:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #009432;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keyp {
+    height: 64px;
+    width: 64px;
+    background-color: #C4E538;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keyp:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #C4E538;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keymi {
+    height: 64px;
+    width: 64px;
+    background-color: #0652DD;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keymi:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #0652DD;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keypl {
+    height: 64px;
+    width: 64px;
+    background-color: #ff9f1a;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keypl:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #ff9f1a;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.keyeq {
+    height: 64px;
+    width: 64px;
+    background-color: #1B9CFC;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+}
+
+.keyeq:hover {
+    height: 64px;
+    width: 64px;
+    background-color: #1B9CFC;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 3px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
